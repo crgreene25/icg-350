@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    margin: 0;
+    font-family: 'Sriracha', cursive;
+}
+
+h3 {
+    margin: 0;
+    opacity: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    margin-right: 5px;
+}
+
+.home {
+    cursor: pointer;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.hello-card {
+    border: 1px solid black;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mask {
+    height: 2.5em;
+    overflow: hidden
+}

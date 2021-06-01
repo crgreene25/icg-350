@@ -1,0 +1,50 @@
+h1 {
+    color: chocolate;
+    font-size: 2em;
+}
+
+p1 {
+    color: rgb(25, 92, 92);
+    font-size: 1.2em;
+}
+
+.picture {
+    margin: 0.5em;
+}
+
+.box-one {
+    background-color: darkturquoise;
+    padding: 10px; 
+    height: 40px; 
+    width: 40px;
+    border: 20px solid black;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.box-two {
+    background-color: red;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border: 20px solid black;
+    margin: 30px;
+    cursor: pointer;
+}
+
+a[target] {
+    border-color: black;
+}
+
+.home {
+    cursor: pointer;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
